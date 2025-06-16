@@ -8,6 +8,7 @@ public class StringReverse {
 
         Scanner sc = new Scanner(System.in);
         String A = sc.next();
+        sc.close();
         String str = "Yes";
 
         for (int i = 0; i < A.length() / 2; i++) {
